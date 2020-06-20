@@ -17,3 +17,5 @@ Or use the docker run command
 ```
 docker container run -v $(pwd):/go/src -p 8080:8080 ivorsco77/godocs
 ```
+
+![demo](demo.png)

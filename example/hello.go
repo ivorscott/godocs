@@ -1,5 +1,5 @@
-// This overview will be displayed under the overview section
-// of the example package documentation.
+// This overview will be displayed under the third-party package synopsis
+// and the overview section of the example package documentation.
 // https://github.com/ivorscott/godocs
 package example
 
