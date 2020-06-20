@@ -1,0 +1,12 @@
+version: "3.0"
+
+services:
+  godocs:
+    image: ivorsco77/godocs
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/go/src/
+    command: >
+      bash -c 'echo http://localhost:8080/pkg/#thirdparty
+      && /go/bin/godoc -http=:8080'
