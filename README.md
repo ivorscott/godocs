@@ -19,3 +19,7 @@ docker container run -v $(pwd):/go/src -p 8080:8080 ivorsco77/godocs
 ```
 
 ![demo](demo.png)
+
+## Testable Examples
+
+If you follow the right naming conventions you can display testable examples in the go docs https://blog.golang.org/examples.
