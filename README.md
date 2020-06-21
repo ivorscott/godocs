@@ -12,7 +12,7 @@ You are not required to have go modules initialized to get it working. Notice th
 docker-compose up
 ```
 
-Or use the docker run command
+Or in your own project use the docker run command
 
 ```
 docker container run -v $(pwd):/go/src -p 8080:8080 ivorsco77/godocs
